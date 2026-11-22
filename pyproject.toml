@@ -1,0 +1,6 @@
+[project]
+name = "my-text-tool"
+version = "0.1.0"
+description = "一个练习用的文本处理小工具：模块拆分 + 日志 + 异常处理"
+requires-python = ">=3.10"
+dependencies = []
