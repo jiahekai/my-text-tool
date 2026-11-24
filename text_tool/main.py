@@ -31,7 +31,6 @@ def main(file_path: str) -> None:
     cleaned = clean_text(raw)
     sentences = split_sentences(cleaned)
     word_count = count_words(sentences)
-
     logger.info("清洗完成，句数=%d，词数=%d", len(sentences), sum(word_count.values()))
     for word, freq in top_words(word_count):
         print(f"{word}: {freq}")
